@@ -1,0 +1,1 @@
+const solution = (x, n) => [...Array(n)].map((_, i) => x * (i + 1));
