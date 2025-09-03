@@ -1,0 +1,1 @@
+const solution = (strArr) => Math.max(...Object.values(strArr.reduce((acc, str) => ({...acc, [str.length]: (acc[str.length] || 0) + 1}), {})));
